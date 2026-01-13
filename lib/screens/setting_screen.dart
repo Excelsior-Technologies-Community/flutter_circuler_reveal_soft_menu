@@ -1,0 +1,15 @@
+import 'package:flutter/material.dart';
+
+class SettingScreen extends StatelessWidget {
+  const SettingScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text('Setting')),
+      body: Center(
+        child: Text('This is setting screen', style: TextStyle(fontSize: 20)),
+      ),
+    );
+  }
+}
